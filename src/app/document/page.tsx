@@ -1,10 +1,7 @@
-import React from 'react'
+import { redirect } from 'next/navigation'
 
 const DocumentPage = () => {
-    return (
-        <>
-        </>
-    )
+    return redirect("/");
 }
 
 export default DocumentPage
